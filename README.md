@@ -1,2 +1,2 @@
 # Foodie
-Website using HTML, CSS, Bootstrap
+Developed a responsive website for a Food Store where users can see a list of food items and detailed information about a food item offered. * Designed page using the following HTML structure elements like li, header, article, footer elements, and different bootstrap components to show different sections in the website and different bootstrap classes for responsiveness through the mobile-first approach.Implemented product youtube videos by using Bootstrap embed and model components.
