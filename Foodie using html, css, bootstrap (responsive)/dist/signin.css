@@ -1,0 +1,29 @@
+.navigation-wrap{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index:1000 ;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.navigation-wrap .navbar-toggler:focus{
+    outline: none;
+    border: unset;
+    box-shadow: none;
+}
+.navigation-wrap .nav-link{
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: .0225rem;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/flat-lay-local-food-meal-arrangement-with-notepad.jpg);
+    background-position: center;
+    background-size: cover;
+}

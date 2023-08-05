@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Foodie</title>
+    <link rel="shortcut icon" type="x-icon" href="images/foodie-logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home-page.css">
+</head>
+
+<body>
+    <!-----------Navbar-Starts------------>
+    <header>
+        <nav class="navbar navbar-expand-lg navigation-wrap bg-light">
+            <div class="container">
+                <img src="images/foodie-logo.png" alt="logo1" style="width: 100px;">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fa-solid fa-bars-staggered navbar-toggler-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-lg-0">
+                        <form class="d-flex me-5">
+                            <input class="form-control me-2 w-75" type="search" placeholder="Search Food Items"
+                                aria-label="Search">
+                            <button class="btn btn-warning btn-sm" type="submit">Search</button>
+                        </form>
+                        <li class="nav-item me-3 ">
+                            <a class="nav-link active text-dark" aria-current="page" href="#home-page">home <i
+                                    class="fa-solid fa-house"></i></a>
+                        </li>
+                        <li class="nav-item  me-3">
+                            <a class="nav-link active text-dark" aria-current="page" href="#menu">menu
+                            </a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link active text-dark" aria-current="page" href="#aboutus">About Us</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link active text-dark" href="signin.html"
+                                style="margin-right: -4rem;">login/Signup <i class="fa-solid fa-user"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-----------Navbar-Ends------------>
+
+    <!------------------Banner-Start----------------------->
+    <section>
+        <div class="top-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-md-6 matter">
+                        <h1 class="text-light">Good food choices are good investments</h1>
+                        <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit?</p>
+                       <a href="signin.html" class="btn btn-warning">Order Now </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------Menu-Start----------------------->
+    <div class="container" id="menu">
+        <h2 class="text-center mt-4" style="font-family: 'Prompt', sans-serif; color: rgb(212, 180, 0);">Our Menu</h2>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="images/burger.jpg" alt="img1" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title h4">Burgers</h5>
+                        <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, beatae!</p> -->
+                        <a href="#" class="btn btn-success btn-sm">View Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="images/pizza.jpg" alt="img1" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title h4">Pizzas</h5>
+                        <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, beatae!</p> -->
+                        <a href="#" class="btn btn-success btn-sm">View Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="images/non veg.jpg" alt="img1" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title h4">NonVeg</h5>
+                        <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, beatae!</p> -->
+                        <a href="#" class="btn btn-success btn-sm">View Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="images/veg.jpg" alt="img1" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title h4">Veg Items</h5>
+                        <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, beatae!</p> -->
+                        <a href="#" class="btn btn-success btn-sm">View Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="images/cake.jpg" alt="img1" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title h4">Cakes</h5>
+                        <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, beatae!</p> -->
+                        <a href="#" class="btn btn-success btn-sm">View Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="images/sweets.jpg" alt="img1" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title h4">Sweets</h5>
+                        <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, beatae!</p> -->
+                        <a href="#" class="btn btn-success btn-sm">View Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="images/Milkshakes (2).jpg" alt="img1" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title h4">MilkShakes</h5>
+                        <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, beatae!</p> -->
+                        <a href="#" class="btn btn-success btn-sm">View Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="images/Softdrinks.jpg" alt="img1" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title h4">Soft Drinks</h5>
+                        <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, beatae!</p> -->
+                        <a href="#" class="btn btn-success btn-sm">View Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!---------------About-Us-Start------------------->
+    <div class="container-xxl py-5 bg-secondary mt-5 text-light" id="aboutus">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="row g-3">
+                        <div class="col-6 text-start">
+                            <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s"
+                                src="images/chicken-biryyani.jpg">
+                        </div>
+                        <div class="col-6 text-start">
+                            <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s"
+                                src="images/milkshakes.jpg">
+                        </div>
+                        <div class="col-6 text-end">
+                            <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.5s"
+                                src="images/cakes.jpg">
+                        </div>
+                        <div class="col-6 text-end">
+                            <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="images/ck.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h5 class="text">About Us</h5>
+                    <h1 class="mb-4">Welcome to <i class="fa fa-utensils text-warning me-2"></i>Foodie</h1>
+                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                        eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
+                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                    </p>
+                    <button class="btn btn-outline-warning">Read more <i class="fa-solid fa-sort-down"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------About-Us-End----------------------->
+
+
+    <!-------------------------------foooter------------------>
+    <footer class="text-center text-lg-start text-muted" style="background-color: #fff;">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Foodie
+                        </h6>
+                        <p>
+                            Here you can use rows and columns to organize your footer content. Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Angular</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">React</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Vue</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Laravel</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Work With Us</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Settings</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Orders</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Help</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> Red Bridge,Amalapuram</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            foodie@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 91 888 999 77 00</p>
+                        <p><i class="fas fa-print me-3"></i> + 91 888 999 77 11</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2023 Copyright:
+            <a class="text-reset fw-bold" href="#">www.foodie.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
